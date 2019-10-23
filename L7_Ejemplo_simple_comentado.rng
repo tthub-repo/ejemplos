@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
+   <!-- en el prólogo lo más importante es especificar el espacio de nombre dentro del
+   cual los elementos se definen -->
+    
+    <!-- Para indicar que el elemento raiz del documento TEI se expresa de la 
+    siguiente manera, con el elemento <start> y el elemento <choice>-->
+    <start>
+        <choice>
+            <ref name="tei_TEI"/>
+           <!-- <ref name="tei_teiCorpus"/>-->
+        </choice>
+    </start>
+
+    <define name="tei_TEI">
+        <element name="TEI">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(documento
+                TEI) contiene un único documento TEI-conforme, que comprende un encabezado y un texto,
+                sea este aislado o parte de un elemento teiCorpus [4. 15.1. ]</a:documentation>
+           <!-- Aquí toda la definición que hay al interior del elemento raíz TEI -->
+            <empty/>
+        </element>
+    </define>
+    
+    
+        <define name="tei_pb">
+            <element name="pb">
+                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cambio de
+                    página) marca la frontera entre una página de un texto y la siguiente en un sistema de
+                    referencia estándard. [3.10.3. ]</a:documentation>
+                <empty/>
+                <ref name="tei_att.global.attributes"/>
+                
+                <empty/>
+            </element>
+        </define>
+
+    <define name="tei_att.global.attributes">
+        <ref name="tei_att.global.attribute.xmlid"/>
+        <!--...-->
+    </define>
+    
+    <define name="tei_att.global.attribute.xmlid">
+        <optional>
+            <attribute name="xml:id">
+                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    >(identificador) proporciona un identificador único para el elemento al cual se
+                    asocia el atributo.</a:documentation>
+                <data type="ID"/>
+            </attribute>
+        </optional>
+    </define>
+    
+</grammar>
