@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+    <libro>
+        <autor id="01">Esquilo</autor>
+        <titulo>Prometeo encadenado</titulo>
+    </libro>
+    <libro>
+        <autor id="02">Sófocles</autor>
+        <titulo>Edipo Rey</titulo>
+    </libro>
+    <libro>
+        <autor id="03">Eurípides</autor>
+        <titulo>Medea</titulo>
+    </libro>
+</lista>

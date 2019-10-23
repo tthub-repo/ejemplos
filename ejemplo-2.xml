@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- ¡esto es un comentario! -->
+<!-- En primer lugar aparece la "Declaración XML" -->
+
+<!DOCTYPE curso SYSTEM "ejemplo-2-DTD.dtd">
+<!-- "Declaración de Tipo de Documento": DOCTYPE nos está indicando el tipo de documento con el que debe relacionarse este fichero XML, es decir, donde encontramos el modelo que debemos utilizar para
+marcar este texto. "curso" indica el elemento raíz, mientras que "SYSTEM" nos indica, en este caso, que el modelo se halla en nuestro sistema y que el modelo en 
+cuestión se llama "ejemplo_DTD.dtd" que se halla en la misma carpeta. -->
+
+<?xml-stylesheet href= “formato.css” type= “text/css”?>
+<!-- Esto es una "Instrucción de procesamiento" que indica al procesador que este documento XML va asociado a una hoja de estilo CSS que se llamaría formato.css
+    y que se encontraría en la misma carpeta.-->
+
+<curso> <!-- "Elemento raíz" -->
+    <metadatos>
+        <titulo>Introducción a la edición digital de textos: TEI-XML</titulo>
+        <fecha cuando="2019-01-22">22 enero 2018</fecha>
+        <profesor>
+            <nombre>Susanna</nombre>
+            <apellido>Allés</apellido>
+            <apellido>Torrent</apellido>
+        </profesor>
+        <universidad>UNED</universidad>
+    </metadatos>
+    <contenido>
+        <tema n="1">
+            <titulo>TEMA 1: ¿Qué es la Text Encoding Initiative y qué aplicaciones prácticas tiene?</titulo>
+            <parrafo>En esta primera unidad ofreceremos...</parrafo>
+            <parrafo>En el ámbito de las humanidades y las ciencias sociales...</parrafo>
+        </tema>
+        <tema n="2">
+            <titulo>TEMA 2: Principios fundamentales de un documento XML </titulo>
+            <parrafo>En este segundo tema se presentarán los principios fundamentales del lenguaje XML,</parrafo>
+            <parrafo>...</parrafo> 
+        </tema>
+    </contenido>
+</curso>
+

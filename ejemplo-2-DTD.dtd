@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Este documento es una DTD (Document Type Definition) muy sencilla.Cuando trabajemos con TEI no usaremos las DTD, sino un tipo de esquema diferente. 
+Aún así es interesante que sepáis qué forma tiene este tipo de documento, pues es muy usado en el terreno de la informática y de las aplicaciones XML. -->
+
+<!ELEMENT curso (metadatos,contenido)>
+<!-- En una DTD todos los elementos deben ser declarados con el elemento <!ELEMENT...>. Entre paréntesis se indican los elementos descendientes que puede contener -->
+
+<!ELEMENT metadatos (titulo,fecha,profesor+,universidad?)>
+<!-- El símbolo + al lado del nombre de un elemento indica que dicho elemento puede aparecer más de una o más de una vez -->
+<!-- El interrogante, en cambio, indica que el elemento es optativo, es decir, que puede o no aparecer -->
+
+<!ELEMENT contenido (tema)+>
+
+<!ELEMENT titulo (#PCDATA)>
+<!-- (#PCDATA) significa que el contenido del elemento, en este caso del <titulo>, será solo texto.  -->
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ATTLIST fecha
+ cuando NMTOKEN #REQUIRED>
+<!-- Con ATTLIST se indica la lista de los atributos. En este caso, hemos añadido un solo atributo que proporciona la fecha en un formato normalizado de manera
+que pueda ser interpretada por el ordenador."NMTOKEN" (name token) significa que el valor de dicho atributo solo acepta los caracteres válidos para nombrar cosas en 
+XML (letras, números, puntos, guiones, dos puntos). En fin, "#REQUIRED" indica que es un atributo obligatorio. -->
+
+<!ELEMENT profesor (nombre?,apellido+)>
+
+<!ELEMENT universidad (#PCDATA)>
+
+
+<!ELEMENT tema (titulo?, parrafo)+>
+
+<!ATTLIST tema
+  n CDATA #REQUIRED>
+  <!-- En esta lista de los atributos del elemento <tema> se indica que debe aparecer obligatoriamente un atributo "n" (número) 
+  que como valor debe contener CDATA (character data), cualquier caracter textual.  -->
+
+<!ELEMENT nombre (#PCDATA)>
+
+
+<!ELEMENT apellido (#PCDATA)>
+
+
+<!ELEMENT parrafo (#PCDATA)>
+
