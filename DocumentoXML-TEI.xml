@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="mi_esquema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- SAT: la línea de arriba es la asociación entre este documento XML-TEI y el esquema .rng que habéis creado con la aplicación Roma. Si está 
+en la misma carpeta, debe ponerse así, y si no indicar la url donde se encuentre. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Informaciones del fichero digital</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Detalles de la publicación digital</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Información de la fuente que queréis transcribir</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Aquí va vuestro texto codificado en XML-TEI</p>
+    </body>
+  </text>
+</TEI>
