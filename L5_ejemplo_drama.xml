@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ejemplo de estructura para un texto dramático</title>
+        <author>Susanna Allés Torrent</author>
+      </titleStmt>
+      <publicationStmt> 
+        <p>UNED, <date>2017</date></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>Personajes</head>
+        <castItem>
+          <role>Personaje 1</role>
+          <roleDesc>Descripción del personaje 2</roleDesc>
+        </castItem>
+     
+      <castItem>
+        <role>Personaje 2</role>
+        <roleDesc>Descripción del personaje 2</roleDesc>
+      </castItem>
+      </castList>
+    </front>
+    
+    <body>
+      <div type="acto" n="1">
+        <head>Acto Primero</head>
+        <div type="escena">
+          <head>Escena I</head>
+          <sp who="#personaje1">
+            <speaker>Personaje 1</speaker>
+              <p>Lo que habla</p>
+          </sp>
+          <sp who="#personaje2">
+            <speaker>Personaje 2</speaker>
+            <p>Lo que habla</p>
+          </sp>
+          <stage>Indicaciones sobre el escenario</stage>
+        </div>
+      </div>
+      <div type="acto" n="2">
+        <head>Acto Primero</head>
+        <div type="escena">
+          <head>Escena I</head>
+         
+          <sp who="#personaje1">
+            <speaker>Personaje 1</speaker>
+            <p>Diálogo</p>
+          </sp>
+          <sp who="#personaje2">
+            <speaker>Personaje 2</speaker>
+            <p>Diálogo</p>
+          </sp>
+         
+          <stage>Indicaciones sobre el escenario</stage>
+        </div>
+      </div>
+      <div type="acto" n="3">
+        <head>Acto Primero</head>
+        <div type="escena">
+          <head>Escena I</head>
+          <sp who="#personaje1">
+            <speaker>Personaje 1</speaker>
+            <p>Lo que habla</p>
+          </sp>
+          <sp who="#personaje2">
+            <speaker>Personaje 2</speaker>
+            <p>Lo que habla</p>
+          </sp>
+          <stage>Indicaciones sobre el escenario</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

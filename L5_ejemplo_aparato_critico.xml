@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>T´´ulo</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Datos sobre la publicación digital</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="NLV">Napoli, Biblioteca Nazionale Vittorio Emanuele III di
+            Napoli, ms. LV BB 20</witness>
+          <witness xml:id="NXXX">Firenze, Biblioteca Nazionale Centrale di Firenze, Magl.
+            XXX, 154</witness>
+          <witness xml:id="M211">Madrid, Biblioteca Nacional de España, RES/211</witness>
+          <witness xml:id="testimonio4"/>
+        </listWit>
+
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <l>línea 1</l>
+      <l>línea tres<rhyme><app>
+          <lem wit="#testimonio1">lema</lem>
+          <rdg wit="#testimonio1">variante1</rdg>
+          <rdg wit="#testimonio2">variante2</rdg>
+          <rdg wit="#testimonio3">variante3</rdg>
+        </app></rhyme></l>
+      <l>línea 2</l>
+
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ejemplo para fuentes primarias</title>
+        <author xml:id="SAT">Susanna Allés Torrent</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>UNED, <date>2016</date></p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+          <physDesc>
+            <handDesc>
+              <handNote xml:id="copista">El copista del manuscrito</handNote>
+              <handNote xml:id="Lector">Un lector posterior que anotó el manuscrito</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+        <pb facs="pagina1.png"/>
+        <!-- El texto de la página número 1-->
+        <pb facs="pagina2.png"/>
+      <!-- El texto de la página número 2-->
+      
+      <p> doctrina: y en integridad de costumbres: e no poco dichoso en ser maestro de tan <subst
+          hand="#lector" resp="#SAT">
+          <del type="tachado">mentado</del>
+          <add place="margin">nombrado</add>
+        </subst>emperador de los Romanos </p>
+      <p>gua griega: <expan><abbr>quisiero</abbr><ex>n</ex></expan> dar obra a la tan prouechosa
+        traducçion: cada uno dellos <expan><abbr>segu<ex>n</ex>d</abbr></expan> lo
+            <expan><abbr>q</abbr><ex>ue</ex></expan>
+        <expan><abbr>p</abbr><ex>er</ex>miti<abbr>a</abbr><ex>n</ex></expan> sus negoçios
+        particulares de que no podian vacar: saluo breue
+        <expan><abbr>tie<ex>m</ex>po</abbr></expan>. </p>
+      <p>gua griega: <choice>
+          <abbr>quisiero</abbr>
+          <expan>quisieron</expan>
+        </choice> dar obra a la tan prouechosa traducçión: cada uno dellos <choice>
+          <abbr>segud</abbr>
+          <expan>segund</expan>
+        </choice> lo <choice>
+          <abbr>q</abbr>
+          <expan>que</expan>
+        </choice>
+        <choice>
+          <abbr>pmitia</abbr>
+          <expan>permitian</expan>
+        </choice> sus negoçios particulares de que no <unclear>podian</unclear> vacar: saluo breve
+        tiempo.</p>
+      <p>... quos <space quantity="10" unit="chars"/>
+        <supplied resp="#SAT">φἱλαγρος</supplied> appellant graeci. Hanc... </p>
+      <p>... Aqueste mas luenga mente <choice>
+          <sic>qua</sic>
+          <corr resp="#SAT">que</corr>
+        </choice> la razon queria ... </p>
+    </body>
+  </text>
+</TEI>

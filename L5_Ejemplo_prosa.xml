@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ejemplo de codificación en prosa</title>
+        <author>Susanna Allés Torrent</author>
+      </titleStmt>
+      <publicationStmt>
+       <publisher>UNED</publisher>
+        <pubPlace>Madrid</pubPlace>
+        <date>2019</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Materiales del curso</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <head type="Principal">Unidad 1 Text Encoding Initiative y aplicaciones prácticas tiene</head>
+
+      <ab>En esta primera unidad ofreceremos una introducción general a la Text Encoding Initiative
+        y sus aplicaciones prácticas.</ab>
+      <div type="parte" n="1">
+        <head type="parte">PARTE I. Cuestiones generales</head>
+        <div type="apartado" n="1">
+          <head type="apartado">1. Introducción</head>
+          <p> En el ámbito de las humanidades y las ciencias sociales, el texto representa, en la
+            mayoría de los casos, el punto de partida de muchas investigaciones. </p>
+          <p>La iniciativa de marcado de textos nace pues de la necesidad de procesar los textos des
+            de un punto de vista informático.</p>
+        </div>
+        <div type="apartado" n="2">
+          <head type="apartado">2. ¿Qué es la Text Encoding Initiative?</head>
+
+          <div type="subapartado" n="2.1">
+            <head> 2.1. Definición y objetivos</head>
+            <p> La Text Encoding Initiative se ampara en primera instancia en el Consorcio TEI, cuya
+              estructura veremos en la Parte II de esta unidad.</p>
+            <p>TEI posee una plataforma web donde se publican tanto las Guías directrices como un
+              sinfín de herramientas y de comunidades de ayuda <ref>[http://www.tei-c.org]</ref>
+              (Ver vídeo Presentación página web del Consorcio TEI <ptr/>). Aquí encontraréis una
+              primera definición que nos será útil para empezar: </p>
+            <cit>
+              <quote>The TEI Guidelines for Electronic Text Encoding and Interchange define and
+                document a markup language for representing the structural, renditional, and
+                conceptual features of </quote>
+              <bibl corresp="#Guidelines">TEI Consortium</bibl>
+            </cit>
+            <p>Veamos paso por paso los diferentes puntos básicos de esta definición. </p>
+            <list>
+              <item>1) El núcleo central de la TEI son las Guidelines que constituyen el manual de
+                uso y la recomendación de buenas prácticas sobre cómo proceder. </item>
+              <item>2) La Guidelines proponen un tipo concreto de lenguaje de marcado que consiste
+                en aislar a través de “marcas” o “etiquetas” las características textuales,</item>
+              <item>3) TEI es especialmente usado en las disciplinas humanísticas, ciencias sociales
+                o lingüística.</item>
+              <item>4) El sistema de marcado propuesto por TEI tiene una naturaleza modular que
+                agrupa fenomenología diversa en un mismo “módulo”. </item>
+            </list>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliografia">
+        <listBibl>
+          <head>Bibliografía</head>
+          <bibl xml:id="Guidelines"><editor>TEI Consortium</editor>, eds. <title>TEI P5: Guidelines
+              for Electronic Text Encoding and Interchange</title>. [Version 2.9.1]. [Ultima
+            modicación: 15-10-2015]. TEI Consortium. http://www.tei-c.org/Guidelines/P5/ ([Último
+            acceso: 01-02-2016]).</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
