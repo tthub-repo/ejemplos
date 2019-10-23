@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ODD básica</title>
+                <author>generada por Roma 4.10</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>para uso público</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.example.org/ns/nonTEI</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Creada el 1 de Marzo de 20116</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>El objetivo es contruir un documento ODD que contenga los módulos mínimos: tei,
+                core, textstructure y header, señalándose así:</p>
+            <schemaSpec ident="ODD_basica" docLang="es" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>
