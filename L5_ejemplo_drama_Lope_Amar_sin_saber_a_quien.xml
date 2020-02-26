@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ejemplo de codificación de una obra dramática: Lope de Vega, Amar sin saber a
+          quien</title>
+        <author>Susanna Allés-Torrent</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Introducción a la edición digital de textos: Marcado y Etiquetado TEI I </authority>
+        <publisher>UNED</publisher>
+        <date when="2020">2020</date>
+        <ref>http://linhd.uned.es/p/edicion-digital-texto-marcado-tei-2019/#tab-id-5</ref>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Lope de Vega, <title>Amar sin saber a quien</title></p>
+        <p>Disponible en la Biblioteca CercantesVirtual
+            <ref>http://bib.cervantesvirtual.com/servlet/SirveObras/00363959755781806410046/ima0017.htm</ref></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+
+    <front>
+      <head>Amar sin saber a quien. <lb/> Comedia Famosa <lb/> De Fray Felix de Vega Carpio</head>
+      <castList>
+        <head>Personas</head>
+        <!-- Lista de personajes que aparecen en la obra -->
+        <castItem>
+          <role xml:id="Fer">Don Fernando</role>
+        </castItem>
+        <castItem>
+          <role xml:id="Pe">Don Pedro</role>
+        </castItem>
+        <castItem><role xml:id="JA">Don Juan de Aguilar</role></castItem>
+        <!-- continuaríamos poniendo identificadores -->
+        <castItem><role>Don Luís de Ribera</role></castItem>
+        <castItem><role>Sancho</role></castItem>
+        <castItem><role>Cespedosa</role></castItem>
+        <castItem><role>Rosales</role>
+          <roleDesc>preso</roleDesc></castItem>
+        <castItem><role>Lisena</role>
+          <roleDesc>dama</roleDesc></castItem>
+        <cb/>
+        <castItem><role>Leonarda</role>
+          <roleDesc>dama</roleDesc></castItem>
+        <castItem><role>Inés</role>
+          <roleDesc>criada</roleDesc></castItem>
+        <castItem><role>Limón</role>
+          <roleDesc>criado</roleDesc></castItem>
+        <castItem>Alguazil</castItem>
+        <castItem>Un Alcaide</castItem>
+        <castItem>Presos</castItem>
+      </castList>
+    </front>
+
+    <body>
+
+      <div type="jornada" n="1">
+        <head>Acto Primero</head>
+        <!-- Descripción de los movimientos de los personajes. Fijaros que en el interior del @who aparecen
+        los dos identificadores de dos de los personajes-->
+        <stage><move type="entrance" who="#Fer #Pe"/>Salen D. Pedro y D. Fernando</stage>
+
+        <sp who="#Fer">
+          <speaker>Fer.</speaker>
+          <l>Ya estamos en castillo</l>
+          <l>de San Cervantes</l>
+          <!-- Aquí podría establecerse un sistema para señalar que se trata de un único verso -->
+        </sp>
+
+        <sp who="#Pe">
+          <speaker>Pe.</speaker>
+          <l>Y aquí</l>
+          <l>diré lo que allí sentí</l>
+          <l>pues aquí puedo decillo</l>
+        </sp>
+        <stage><move who="#Pe"/>Mete mano</stage>
+
+        <sp who="#Fer">
+          <speaker>Fer.</speaker>
+          <l>¿Con la espada respondéis?</l>
+        </sp>
+        <!-- señalo el cambio de página: -->
+        <pb n="150r"/>
+
+        <sp who="#Pe">
+          <speaker>Pe.</speaker>
+          <l>Solo con azero puedo, </l>
+          <l>que es la lengua de Toledo, </l>
+          <l>a quien vos agravio hazeis. </l>
+          <l>La brevedad es de sabios,</l>
+          <l>la dilación siempre enoja;</l>
+          <l> respondo en sola una hoja </l>
+          <l>al libro de mis agrabios.</l>
+        </sp>
+        <sp who="#Fer">
+          <speaker>Fer.</speaker>
+          <l>En agravios tan pequeños </l>
+          <l>es resuelto el responder, </l>
+          <l>y hay libros que suelen ser</l>
+          <l>libelos para sus dueños.</l>
+        </sp>
+        <sp who="#Pe">
+          <speaker>Pe.</speaker>
+          <l>Sacad la espada.</l>
+        </sp>
+        <sp who="#Fer">
+          <speaker>Fer.</speaker>
+          <l>Mirad</l>
+          <l>que estará la culpa en vos </l>
+          <l>y que ya estamos los dos </l>
+          <l>muy lexos de la ciudad.</l>
+        </sp>
+
+        <stage><move type="entrance" who="JA"/>Sale D. Juan de Aguilar galán de camino, como que se
+          apea por averlos visto.</stage>
+      </div>
+      <!--  -->
+      <div type="jornada" n="2">
+        <!--  -->
+      </div>
+    </body>
+  </text>
+</TEI>
