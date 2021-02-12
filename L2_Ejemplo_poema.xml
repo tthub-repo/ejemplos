@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<poema tipo="soneto" identificador="poema-1">
+    <metadatos>
+        <autor>Lope de Vega</autor>
+        <titulo>Un soneto me manda hacer Violante</titulo>
+    </metadatos>
+    <estrofa tipo="cuarteto" numero="1">
+        <verso numero="1">Un soneto me manda hacer Violante,</verso>
+        <verso numero="2">y en mi vida me he visto en tal aprieto: Catorce versos dicen que es soneto:</verso>
+        <verso numero="3"> Burla burlando van los tres delante.</verso>
+    </estrofa>
+    <estrofa>
+        <verso numero="4">Yo pensé que no hallara consonante</verso>
+        <verso numero="5"> y estoy a la mitad de otro cuarteto:</verso>
+        <verso numero="6"> Mas si me veo en el primer terceto</verso>
+        <verso numero="7">no hay cosa en los cuartetos que me espante.</verso>
+    </estrofa>
+
+    <estrofa>
+        <verso numero="8">Por el primer terceto voy entrando</verso>
+        <verso numero="9">y aún parece que entré con pie derecho,</verso>
+        <verso numero="10">pues fin con este verso le voy dando.</verso>
+    </estrofa>
+
+    <estrofa>
+        <verso numero="11">Ya estoy en el segundo, y aun sospecho</verso>
+        <verso numero="12">que estoy los trece versos acabando:</verso>
+        <verso numero="13">contad si son catorce, y está hecho.</verso>
+    </estrofa>
+</poema>
