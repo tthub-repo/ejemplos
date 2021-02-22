@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+   type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- SAT: solución al ejercicio Tema 3 (Codificación de un poema de Lorca). 
+   Para las indicaciones del ejercicio: https://tthub-repo.github.io/ejercicios/4.Codificacion-poema-Lorca_I -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ejercicio 3: Codificación de La Casada Infiel de Federico García Lorca</title>
+            <author>Susanna Allés Torrent</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Introducción a la edición digital de textos: Marcado y Etiquetado TEI
+               I</authority>
+            <publisher>UNED</publisher>
+            <date when="2021-02-14">14 Febrero 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="impreso">
+               <author>Federico García Lorca</author>
+               <title>Romancero gitano</title>
+               <pubPlace>Santiago de Chile</pubPlace>
+               <publisher>Editorial Moderna,</publisher>
+               <date>1937</date>
+               <biblScope>45-48</biblScope>
+            </bibl>
+            <bibl type="digital">
+               <publisher>Wikisource</publisher>
+               <date>2012</date>
+               <ref>https://es.wikisource.org/wiki/P%C3%A1gina:Romancero_gitano.djvu/1</ref>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg xml:id="CasadaInfiel">
+            <pb n="45" facs="https://es.wikisource.org/wiki/P%C3%A1gina:Romancero_gitano.djvu/49"/>
+            <head>La casada infiel</head>
+            <lg n="1" type="estrofa">
+               <l n="1"> Y que yo me la llevé al río</l>
+               <l n="2">creyendo que era mozuela,</l>
+               <l n="3">pero tenía marido.</l>
+               <l n="4"> Fué la noche de Santiago</l>
+               <l n="5">y casi por compromiso.</l>
+               <l n="6">Se apagaron los faroles</l>
+               <l n="7">y se encendieron los grillos.</l>
+               <l n="8">En las últimas esquinas</l>
+               <l n="9">toqué sus pechos dormidos,</l>
+               <l n="10">y se me abrieron de pronto </l>
+               <pb n="46" facs="https://es.wikisource.org/wiki/P%C3%A1gina:Romancero_gitano.djvu/50"/>
+               <l n="11">como ramos de jacintos.</l>
+               <l n="12">El almidón de su enagua</l>
+               <l n="13">me sonaba en el oído</l>
+               <l n="14">como una pieza de seda</l>
+               <l n="15">rasgada por diez cuchillos.</l>
+               <l n="16">Sin luz de plata en sus copas</l>
+               <l n="17"> los árboles han crecido</l>
+               <l n="18">y un horizonte de perros</l>
+               <l n="19">ladra muy lejos el río.</l>
+            </lg>
+            <fw>*</fw>
+            <lg>
+               <l n="20"> Pasadas las zarzamoras,</l>
+               <l n="21">los juncos y los espinos,</l>
+               <l n="22">bajo su mata de pelo</l>
+               <l n="23"> hice un hoyo sobre el limo.</l>
+               <l n="24">Yo me quité la corbata. </l>
+               <pb n="47" facs="https://es.wikisource.org/wiki/P%C3%A1gina:Romancero_gitano.djvu/51"/>
+               <l n="48">Ella se quitó el vestido.</l>
+               <l n="49">Yo el cinturón con revólver.</l>
+               <l n="50">Ella sus cuatro corpiños.</l>
+               <l n="51">Ni dardos ni caracolas</l>
+               <l n="52"> tienen el cutis tan fino,</l>
+               <l n="53">ni los cristales con luna</l>
+               <l n="54">relumbran con ese brillo.</l>
+               <l n="55"> Sus muslos se me escapaban</l>
+               <l n="56">como peces sorprendidos,</l>
+               <l n="57">la mitad llenos de lumbre,</l>
+               <l n="58"> la mitad llenos de frío.</l>
+               <l n="59">Aquella noche corrí</l>
+               <l n="60">el mejor de los caminos,</l>
+               <l n="61"> montado en potra de nácar</l>
+               <l n="62">sin bridas y sin estribos.</l>
+               <l n="63"> No quiero decir, por hombre,</l>
+               <l n="64">las cosas que ella me dijo.</l>
+               <l n="65"> La luz del entendimiento </l>
+               <pb n="48" facs="https://es.wikisource.org/wiki/P%C3%A1gina:Romancero_gitano.djvu/52"/>
+               <l n="66">me hace ser muy comedido.</l>
+               <l n="67"> Sucia de besos y arena</l>
+               <l n="68">yo me la llevé al río.</l>
+               <l n="69">Con el aire se batían</l>
+               <l n="70">las espadas de los lirios.</l>
+            </lg>
+            <lg>
+               <l n="71"> Me porté como quien soy.</l>
+               <l n="72">Como un gitano legítimo.</l>
+               <l n="73"> La regalé un costurero</l>
+               <l n="74">grande, de raso pajizo,</l>
+               <l n="75">y no quise enamorarme</l>
+               <l n="76">porque teniendo marido</l>
+               <l n="77">me dijo que era mozuela</l>
+               <l n="78"> cuando la llevaba al río. </l>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>
