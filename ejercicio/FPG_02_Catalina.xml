@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Catalina de Lancaster</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés Torrent</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2018</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <publisher>Espasa-Calpe</publisher>
+          <pubPlace>Madrid</pubPlace>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">A second edition from 1965 is digitizied (Espasa-Calpe, Madrid) in the
+            Internet Archive. The text is the same, but the pagination presents small
+            differences.</note>
+          <publisher>Internet Archive</publisher>
+          <date>2019</date>
+          <ref>https://archive.org/details/generacionesysem0000prez</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-23" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_02" xml:lang="es">
+    <body>
+      <head>Doña Catalina de Lancaster</head>
+      <p><pb edRef="#DBordonaFPG" n="19"/>La <persName>reina doña Catalina</persName>, muger d'este
+          <persName>rey don Enrique</persName>, fue fija de don <persName>Johan de
+          Lencastre</persName>, fijo ligítimo del <persName>rey Aduarte de Inguelaterra</persName>,
+        el cual duque caso con doña <persName>Costança</persName>, fija del rey don <persName>Pedro
+          de Castilla</persName> e de doña <persName>María de Padilla</persName>.</p>
+      <p>Fue esta reina alta de cuerpo e muy gruesa, blanca e colorada e rubia. En el talle e meneo
+        del cuerpo tanto pareçía onbre como muger. Fue muy onesta e guardada en su presona e fama,
+        liberal e manífica, pero muy sometida a privados e muy regida d'ellos, lo cual, por la mayor
+        parte, es biçio común de los reyes. No era bien regida en su presona; ovo <pb
+          edRef="#DBordonaFPG" n="20"/> una grande dolençia de perlesia, de la cual non quedó bien
+        suelta de la lengua nin libre del cuerpo.</p>
+      <p>Murió en <placeName>Valladolid</placeName> en hedad de çincuenta años, <date when="1418"
+          >año de mill e cuatroçientos e dies e ocho años</date>.</p>
+    </body>
+  </text>
+</TEI>
