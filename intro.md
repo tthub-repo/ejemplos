@@ -4,4 +4,4 @@ En esta sección proponemos una serie de ejemplos de código, en su mayoría cod
 
 Los diferentes ejemplos que encontrarás están enlazados con el archivo correspondiente albergado en nuestro [repostirio de ejemplos en GitHub](https://github.com/tthub-repo/ejemplos/), desde donde podrás descargarlos. 
 
-TTHub es un proyecto abierto a colaboraciones, así que si tienes algún ejemplo que pueda servir a la comunidad de usuarios de XML-TEI, te animamos a que nos lo mandes a través de la sección [Participa]. 
+TTHub es un proyecto abierto a colaboraciones, así que si tienes algún ejemplo que pueda servir a la comunidad de usuarios de XML-TEI, te animamos a que nos lo mandes a través de la sección [Participa](https://tthub.io/participa). 
