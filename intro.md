@@ -1,7 +1,7 @@
 # Introducción
 
-Este repositorio alberga una serie de ejemplos de textos codificados en XML-TEI y pertenecen al proyecto TTHUB <https://tthub.io> coordinado por [Susanna Allés Torrent](http://susannalles.com) (University of Miami) y [Gimena del Rio Riande](https://www.aacademica.org/gimena.delrio.riande) (CONICET), con la colaboración de Gabriel Calarco.
+En esta sección proponemos una serie de ejemplos de código, en su mayoría codificación en XML-TEI. Los ejemplos están conectados, por lo general, a uno de los tutoriales y a sus lecciones, disponibles en la sección [Aprende](https://tthub.io/aprende). Como en toda codificación, no hay nunca una única manera de codificar un texto, así que estos ejemplos deben tomarse como tal, como una propuesta que puede servir de modelo.
 
-La mayoría de estos ejemplos (19, hasta la fecha, en septiembre 2022) se relacionan con los tutoriales y las lecciones presentes en TTHub, en la sección [Aprende](https://tthub.io/aprende/).
+Los diferentes ejemplos que encontrarás están enlazados con el archivo correspondiente albergado en nuestro [repostirio de ejemplos en GitHub](https://github.com/tthub-repo/ejemplos/), desde donde podrás descargarlos. 
 
-El proyecto está abierto a colaboración y nos gustaría que el elenco de ejemplos fuera incrementándose para poder así tener más materiales disponibles a la hora de enseñar y aprender tecnologías del texto y, en especial, la Text Encoding Initiative.
+TTHub es un proyecto abierto a colaboraciones, así que si tienes algún ejemplo que pueda servir a la comunidad de usuarios de XML-TEI, te animamos a que nos lo mandes a través de la sección [Participa]. 
