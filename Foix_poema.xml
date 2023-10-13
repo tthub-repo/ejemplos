@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Exemple de codificació -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Codificació básica d'un poema de J.V. Foix</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Seminari Les humanitats digitals i l'edició de textos: plantejaments, eines,
+               aplicacions i tendències,
+                  <ref>http://www.catedramariustorres.udl.cat/recerca/reunions.php?op=12</ref>
+               <date from="2023-10-19" to="2023-10-20">19-20 d'octubre de 2023</date></p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="impres">
+               <author>J. V. Foix</author>
+               <title>On he deixat les claus...</title>
+               <pubPlace>Barcelona</pubPlace>
+               <publisher>Edicions L'Amic de les Arts</publisher>
+               <date>1953</date>
+               <biblScope>47-48</biblScope>
+            </bibl>
+            <bibl type="digital">
+               <publisher/>
+               <date/>
+               <ref>http://www.catedramariustorres.udl.cat/materials/biblioteca/visor2.php?tipus=cont&amp;autor=foix002&amp;codi=455&amp;pos=48&amp;zoom=2pagines&amp;ordre=edicio</ref>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="47"
+            facs="http://www.catedramariustorres.udl.cat/materials/biblioteca/visor2.php?tipus=cont&amp;autor=foix002&amp;codi=455&amp;pos=48&amp;zoom=2pagines&amp;ordre=edicio"/>
+         <lg type="poema">
+            <lg type="estrofa">
+               <l>És quan dormo que hi veig clar</l>
+               <l>És quan plou que ballo sol</l>
+               <l>Vestit d'algues, or i escata,</l>
+               <l>Hi ha un pany de mar al revolt</l>
+               <l>I un tros de cel escarlata,</l>
+               <l>Un ocell fa un giravolt</l>
+               <l>I treu branques una mata,</l>
+               <l> El casalot del pirata</l>
+               <l>És un ample gira-sol.</l>
+               <l>Es quan plou que ballo sol</l>
+               <l>Vestit d'algues, or i escata.</l>
+            </lg>
+
+            <lg type="estrofa">
+               <l>És quan ric que em veig gepic</l>
+               <l>Al bassal de sota l'era,</l>
+               <l>Em vesteixo d'home antic</l>
+               <l>I empaito la masovera,</l>
+               <l>I entre pineda i garric</l>
+               <l>Planto la meva bandera;</l>
+               <l>Amb una agulla saquera</l>
+               <l>Mato el monstre que no dic.</l>
+               <l>És quan ric que em veig gepic</l>
+               <l>Al bassal de sota l'era.</l>
+               <l>És quan dormo que hi veig clar</l>
+               <l>Foll d'una dolça metzina,</l>
+               <l>Amb perles a cada mà</l>
+               <l>Visc al cor d'una petxina,</l>
+               <l>Só la font del comellar</l>
+               <l>I el jaç de la salvatgina,</l>
+               <l>-O la lluna que s'afina</l>
+               <l> En morir carena enllà.</l>
+               <l>Es quan dormo que hi veig clar</l>
+               <l>Foll d'una dolça metzina.</l>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>
