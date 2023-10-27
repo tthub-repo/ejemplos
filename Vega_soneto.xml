@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../../Desktop/Pronapoli/XML-TEI/oda4.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ejercicio de codificación en XML-TEI</title>
+            <author>Susanna Allés Torrent</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Univesità di Verona, <date when="2023-10-25">25 octubre 2023</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texto tomado de la Biblioteca Virtual Miguel de Cervantes <ref>https://www.cervantesvirtual.com/obra-visor/sonetos--27/html/000fe41e-82b2-11df-acc7-002185ce6064_1.html#PV_5_</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg type="soneto" rhyme="ABBA ABBA CDE CDE">
+            <lg type="cuarteto">
+               <l n="01">Escrito está en mi alma vuestro g<rhyme label="A">esto</rhyme>,
+               </l>
+               <l n="02">y cuanto yo escribir de vos des<rhyme label="B">eo</rhyme>;
+               </l>
+               <l n="03">vos sola lo escribiste, yo lo l<rhyme label="B">eo</rhyme>
+               </l>
+               <l n="04">tan solo, que aun de vos me guardo de <rhyme label="A">esto</rhyme>.
+               </l>
+            </lg>
+
+            <lg type="cuarteto">
+               <l n="05"> En esto estoy y estaré siempre pu<rhyme label="A">esto</rhyme>,
+               </l>
+               <l n="06">que aunque no cabe en mí cuanto en vos v<rhyme label="B">eo</rhyme>,
+               </l>
+               <l n="07">de tanto bien lo que no entiendo cr<rhyme label="B">eo</rhyme>,
+               </l>
+               <l n="08">tomando ya la fe por presupu<rhyme label="A">esto</rhyme>.	
+               </l>
+            </lg>
+
+            <lg type="terceto">
+               <l n="09"> Yo no nací sino para quer<rhyme label="C">eros</rhyme>;
+               </l>
+               <l n="10">mi alma os ha cortado a su med<rhyme label="D">ida</rhyme>:
+               </l>
+               <l n="11">por hábito del alma misma os qui<rhyme label="E">ero</rhyme>.
+               </l>
+            </lg>
+
+            <lg type="terceto">
+               <l n="12">Cuanto tengo confieso yo deb<rhyme label="C">eros</rhyme>;
+               </l>
+               <l n="13">por vos nací, por vos tengo la v<rhyme label="D">ida</rhyme>,
+               </l>
+               <l n="14">por vos he de morir y por vos mu<rhyme label="E">ero</rhyme>.
+               </l>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>
